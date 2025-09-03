@@ -12,10 +12,10 @@ class Settings(BaseSettings):
     debug: bool = False
     
     # External API Keys (optional for free tiers)
-    firecrawl_api_key: Optional[str] = "fc-f8d98468417c4795bc9410dcae7f6355"
+    firecrawl_api_key: Optional[str] = "your_key"
     openai_api_key: Optional[str] = None
-    inngest_event_key: Optional[str] = "WS1ZQ82CJU7e0Lm8u3vi3WfmHYV0Mcam6bSioX1AaCEO98A8Pihj6Un102PacdGtxBcOTDqTqYmNzFr1AKMT5Q"
-    inngest_signing_key: Optional[str] = "signkey-prod-4159b3eba5421ed30cddaf7bfd1c9a976e408e9f9a4a53d3edf23b89ffae22c0"
+    inngest_event_key: Optional[str] = "your_key"
+    inngest_signing_key: Optional[str] = "your_key"
     #inngest_dev: bool = os.getenv("INNGEST_DEV", "0") == "1"
     
     # Paths
