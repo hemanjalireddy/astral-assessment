@@ -16,7 +16,6 @@ class Settings(BaseSettings):
     openai_api_key: Optional[str] = None
     inngest_event_key: Optional[str] = "your_key"
     inngest_signing_key: Optional[str] = "your_key"
-    #inngest_dev: bool = os.getenv("INNGEST_DEV", "0") == "1"
     
     # Paths
     output_dir: Path = Path("outputs")
